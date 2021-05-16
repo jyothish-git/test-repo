@@ -1,2 +1,2 @@
 # Run SonarQube in ECS Fargate cluster
--Dnode.store.allow_mmap=false
+Included "-Dnode.store.allow_mmap=false" in sonar.sh to disable the bootstrap check for elasticsearch. 
